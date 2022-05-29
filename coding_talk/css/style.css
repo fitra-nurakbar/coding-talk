@@ -1,0 +1,134 @@
+:root {
+    --color-1: #ffffff;
+    --color-2: #e7e7e7;
+    --color-3: #a1a1a1;
+    --color-4: #fbd144;
+    --font-sz: 20px;
+    --border-radius: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.header {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+/* navbar start */
+.navbar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    color: var(--color-1);
+    background-color: var(--color-3);
+}
+.navbar .navbar-nav {
+    display: flex;
+}
+.nav-item {
+    margin: 0 10px;
+}
+/* navbar end */
+/* profile start */
+.profile {
+    padding-top: 5rem;
+    background-color: var(--color-2);
+    text-align: center;
+}
+.profile .photo-prof {
+    border-radius: 50%;
+    border: 5px solid var(--color-4);
+    width: 200px;
+}
+.profile .nama {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+/* profile end */
+/* hobies start */
+.hobies {
+    background-color: var(--color-1);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards .hobie {
+    width: 400px;
+    margin: 20px;
+    border: 5px solid var(--color-3);
+    border-radius: var(--border-radius);
+    transition: 0.5s;
+}
+.cards .hobie:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* hobies end */
+/* contact start */
+.contact {
+    background-color: var(--color-2);
+}
+.form-contact {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    width: 400px;
+    box-sizing: border-box;
+}
+.txt {
+    line-height: 30px;
+    margin: 20px;
+}
+.txt label {
+    text-align: left;
+    font-size: var(--font-sz);
+}
+.txt input {
+    height: 30px;
+    font-size: var(--font-sz);
+    width: 100%;
+    outline: none;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--color-3);
+}
+.txt textarea {
+    width: 100%;
+    border: 2px solid var(--color-3);
+    outline: none;
+}
+.submit {
+    color: var(--color-1);
+    font-size: var(--font-sz);
+    font-weight: bold;
+    border: none;
+    width: 50%;
+    height: 50px;
+    background-color: var(--color-4);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.submit:hover {
+    transform: scale(1.1);
+}
+/* contact end */
+/* footer start */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    color: var(--color-1);
+    font-weight: bold;
+    font-size: var(--font-sz);
+    height: 50px;
+}
+/* footer end */
