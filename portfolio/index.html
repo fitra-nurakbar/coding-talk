@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <!-- link fonts style start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link style font end -->
+    <title>Portofolio | Fitra</title>
+  </head>
+
+  <body id="home">
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="#"
+        ><i class="bi bi-person-circle"></i> Portfolio</a
+      >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="active" href="#home"
+            ><i class="bi bi-house-fill"></i> Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#about"><i class="bi bi-person-fill"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#hobies"><i class="bi bi-image-fill"></i> Hobies</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact"><i class="bi bi-envelope-fill"></i> Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
+    <!-- jumbotron start -->
+    <section class="jumbotron">
+      <img src="img/photo.jpg" alt="photo" class="img-thumbnail" />
+      <h1 class="nama">Fitra Nurakbar</h1>
+      <p>Pesantren | WEB Udacoding</p>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e7e7e7" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,101.3C840,96,960,160,1080,186.7C1200,213,1320,203,1380,197.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+    </svg>
+    <!-- jumbotron end -->
+    <!-- about start -->
+    <section id="about">
+      <div class="flex">
+        <h2 class="header">About me</h2>
+      </div>
+      <div class="flex">
+        <p class="paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam deleniti et, rerum vero sit totam dolorum exercitationem odio. Praesentium rem, recusandae quaerat nemo nobis aut distinctio mollitia repellat repudiandae.
+        </p>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error iure nesciunt quaerat non quae cum hic tenetur aliquid. Repudiandae, excepturi placeat? Cupiditate, excepturi culpa? Quidem commodi soluta inventore illum.
+        </p>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- hobies start -->
+    <section id="hobies" class="hobies">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,101.3C840,96,960,160,1080,186.7C1200,213,1320,203,1380,197.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+      <div class="flex">
+        <div class="header">
+          <h2>My hobies</h2>
+        </div>
+      </div>
+      <div class="cards" >
+        <img src="hobies/1.jpg" alt="hobies1" class="hobie">
+        <img src="hobies/2.jpg" alt="hobies2" class="hobie">
+        <img src="hobies/3.jpg" alt="hobies3" class="hobie">
+        <img src="hobies/4.jpg" alt="hobies4" class="hobie">
+        <img src="hobies/5.jpg" alt="hobies5" class="hobie">
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#E7E7E7" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,101.3C840,96,960,160,1080,186.7C1200,213,1320,203,1380,197.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+    </svg>
+    <!-- hobies end -->
+    <!-- contact start -->
+    <section id="contact">
+      <div class="flex">
+        <div class="header">
+          <h2>Contact me</h2>
+        </div>
+      </div>
+      <div class="flex">
+        <form class="form">
+          <div class="txt_field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="txt_field">
+            <label for="mail">Email</label>
+            <input type="mail" name="mail" id="mail" required />
+          </div>
+          <div class="txt_field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+          </div>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>   
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="footer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,101.3C840,96,960,160,1080,186.7C1200,213,1320,203,1380,197.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+      <footer>
+        <div class="flex">
+          <p>
+            Copyright © 2021 by <i class="bi bi-instagram"></i
+            ><a href="https://www.instagram.com/fit.tra_/" target="_blank">
+              @fit.tra_</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>
